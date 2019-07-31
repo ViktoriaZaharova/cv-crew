@@ -1,0 +1,43 @@
+
+
+@media (max-width:479px) {
+    .ui-datepicker-multi-3 .ui-datepicker-group {
+        width: auto
+    }
+    .fc-header-right {
+        text-align: center
+    }
+    .fc-header-right .fc-button {
+        margin-left: 0;
+        width: 100%
+    }
+    .fc-header td, .fc-header-title h2 {
+        white-space: normal
+    }
+    .fc-header-left .fc-button {
+        width: 100%;
+        text-align: center
+    }
+    .fc-header-left .fc-button+.fc-button {
+        margin-top: 2px
+    }
+}
+
+@media (max-width:480px) {
+    .datatable-footer, .datatable-header {
+        text-align: center
+    }
+    .DTTT_container, .dataTables_filter, .dataTables_info, .dataTables_length, .dataTables_paginate, .paging_full_numbers {
+        float: none
+    }
+    .DTTT_container {
+        margin: 16px 0 0
+    }
+    .panel .dataTables_length, .panel .dataTables_paginate {
+        padding-top: 0;
+        margin-top: 0
+    }
+    .plupload_filelist_footer .plupload_file_action, .plupload_filelist_footer .plupload_file_size, .plupload_filelist_footer .plupload_file_status, .plupload_filelist_footer .plupload_progress {
+        display: none
+    }
+}
